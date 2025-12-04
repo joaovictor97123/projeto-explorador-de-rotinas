@@ -1,0 +1,73 @@
+body {
+    background-color: #e6e9f0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.app {
+    background: #ffffff;
+    width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #1565c0;
+}
+
+.subtitulo {
+    text-align: center;
+    color: #5e6c83;
+    margin-bottom: 10px;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.atividade {
+    background: #f0f4ff;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: grab;
+}
+
+.atividade:active {
+    cursor: grabbing;
+}
+
+.atividade img {
+    width: 55px;
+}
+
+.atividade p {
+    flex: 1;
+    font-size: 16px;
+    margin: 0;
+}
+
+.concluir {
+    padding: 8px 12px;
+    background-color: #26a69a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.concluir.concluido {
+    background-color: gray;
+}
+
+.drag-over {
+    border: 2px dashed #1565c0;
+}
